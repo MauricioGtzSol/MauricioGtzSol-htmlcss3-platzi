@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/nomalize.css">
+    
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="fadeInDown">
+        <div>
+            <img src="assets/images/logo.png" alt="">
+        </div>
+        <div>
+            <ul>
+                <li><a href="">Faqs</a></li>
+                <li><a href="">Producto y descripción</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+        <div class="col-4">
+            <div class="modulo_pago">
+                <div class="modulo_pago_images">
+                    <img src="assets/images/ben1.png" alt="">
+                </div>
+            <h3>Producto solicitado</h3>
+            <p>Producto correcto hay miles en el mercado</p>
+        </div>
+        </div>
+        <div class="col-8">
+            <div class="modulo_pago">
+                <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M8AKERPMYKSUW" method="POST">
+                    <label for="name">Nombre</label>
+                    <br>
+                    <input type="text" placeholder="" name="name" class="data"><br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="text" placeholder="" name="email" class="data"><br>
+                    <label for="phone">Telefono</label>
+                    <br>
+                    <input type="text" placeholder="" name="phone" class="data">
+                    <br>
+                    <input type="submit" value="Confirmar pago" class="main_button">
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+    <footer>
+        <ul class="footer_term">
+            <li>Terminos y Condiciones </li>    
+        </ul>
+        <ul class="footer_mail">
+            <li>contacto@mail.com</li>
+        </ul>
+    </footer>
+    <script src="assets/js/js.js"></script>
+</body>
+</html>

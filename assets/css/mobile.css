@@ -1,0 +1,25 @@
+@media (max-width:600px){
+    .products{
+        display: inherit;
+        height: auto;
+    }
+    .product{
+        margin-top: auto;
+    }
+    .main_section{
+        padding: 4%;
+    }
+    .publi{
+        display: inherit;
+        margin:20%;
+        margin-top: 4%;
+    }
+    
+    
+    .mention_content{
+        width: 100%;
+    }
+    .mentions{
+        display: inherit;
+    }
+}
